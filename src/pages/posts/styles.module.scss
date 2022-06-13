@@ -1,0 +1,62 @@
+.main {
+    padding: 0 0.5rem;
+}
+
+.container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 5rem 0;
+
+    a {
+        display: block;
+
+        & + a {
+            margin-top: 2rem;
+        }
+
+        img {
+            border: 2px solid var(--blue-900);
+            border-image: linear-gradient(95deg, #31b4d0, transparent) 1;
+        }
+
+        h2 {
+            margin-top: 1.5rem;
+            color: var(--white);
+            transition: color ease .3s;
+
+            &:hover {
+                color: var(--blue-900);
+            }
+        }
+
+        time {
+            display: block;
+            margin: .5rem 0;
+            color: var(--grey-200);
+        }
+
+        p {
+            color: var(--white);
+        }
+    }
+}
+
+.navigateButtons {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    div {
+        display: flex;
+
+        button {
+            display: flex;
+            padding: .2rem .5rem;
+            margin: 0 .3rem;
+            border-radius: 6px;
+            background-color: var(--blue-900);
+            cursor: pointer;
+        }
+    }
+}

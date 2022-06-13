@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --white: #fff;
+
+    --grey-100: #afafaf;
+    --grey-200: #525252;
+    --grey-700: #15171b;
+    --grey-900: #111113;
+
+    --blue-900: #228be6;
+    --purple-500: #7950f2;
+}
+
+@media (max-width: 1024px) {
+    html {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 375px) {
+    html {
+        font-size: 11px;
+    }
+}
+
+body {
+    background: var(--grey-900);
+}
+
+body,
+input,
+textarea,
+select,
+button {
+    font: 400 1rem 'Poppins', sans-serif;
+}
+
+button {
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}

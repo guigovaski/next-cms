@@ -1,0 +1,13 @@
+.button {
+    padding: 1rem 1.8rem;
+    border: 0;
+    border-radius: 6px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--white);
+    background-color: var(--blue-900);
+
+    &:hover {
+        filter: brightness(.9);
+    }
+}
